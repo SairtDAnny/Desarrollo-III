@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".MainActivityCamioneta">
+
+    <VideoView
+        android:id="@+id/videoCamionetausuario"
+        android:layout_width="449dp"
+        android:layout_height="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="397dp"
+        android:layout_height="30dp"
+        android:text="Servicio de Mudanza"
+        android:textColor="#FFFBFB"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        android:text="QHAPAQ ÑAN"
+        android:textColor="#FFFBFB"
+        android:textSize="34sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="119dp"
+        android:layout_height="102dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logooriginal" />
+
+    <ScrollView
+        android:layout_width="456dp"
+        android:layout_height="335dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoCamionetausuario">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCamioneta1"
+                    android:layout_width="365dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Carlos Martinez " />
+
+                <ImageButton
+                    android:id="@+id/btnImagenCamioneta1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/camioneta1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCamioneta2"
+                    android:layout_width="365dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Juan Daza Lopez" />
+
+                <ImageButton
+                    android:id="@+id/btnImagenCamioneta2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/camioneta2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCamioneta3"
+                    android:layout_width="365dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Miguel Rojas Paucar" />
+
+                <ImageButton
+                    android:id="@+id/btnImagenCamioneta3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/camioneta3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCamioneta4"
+                    android:layout_width="365dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Damian Rojas Condo" />
+
+                <ImageButton
+                    android:id="@+id/btnImagenCamioneta4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/camioneta4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCamioneta5"
+                    android:layout_width="365dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Samuel Torrez Farfan" />
+
+                <ImageButton
+                    android:id="@+id/btnImagenCamioneta5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/camionlorenzo" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

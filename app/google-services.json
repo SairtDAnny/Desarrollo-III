@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90421313104",
+    "project_id": "appmudanza-b4825",
+    "storage_bucket": "appmudanza-b4825.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90421313104:android:6ad58ecef3bf9c145a9b55",
+        "android_client_info": {
+          "package_name": "com.example.appmudanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90421313104-oksonff5i62i7u3836vjkujukmfmdtem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByVgqY-UYU6PYzr6bDap0Sc4RJlYwFtow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90421313104-oksonff5i62i7u3836vjkujukmfmdtem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
